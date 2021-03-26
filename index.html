@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Mike's Webpage</title>
+        <link rel="stylesheet" href="./css/portfolio.css" type="text/css">
+    </head>
+
+    
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+        
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="./images/video/drone.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Michael's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>Emancipate yourselves from mental slavery.
+                        <br>None but ourselves can free our minds.                                        
+                    </q>
+                    <br> -Bob Marley
+                    <br>
+                    <br> My name is Michael Ford. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="./images/img1.jpg" alt="photo of me">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About Me</h1>
+                <p>
+                    I've been a police officer for 5 years, I decided to step back from that career full-time and work at becoming a software developer. 
+                    <br>
+                    <br>I am currently going through <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s C# and .NET Boot Camp, where I will have experience in: HTML, CSS, JavaScript, SQL, C# and more. 
+                    <br>
+                    <br>I'm always eager to learn and open to answer questions. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row," id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/MikeF0926/HTML-and-CSS-Projects" target="_blank">My Github</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/MikeF0926/HTML-and-CSS-Projects" target="_blank"><img src="./images/img2.jpg" alt="my family and me"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="./images/img3.jpg" alt="La Familia">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                
+                <form action="https://formspree.io/f/xpzkalow" method="POST">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Michael Ford, <a href="https://github.com/MikeF0926/HTML-and-CSS-Projects" target="_blank">Michael Ford's Github</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
